@@ -14,7 +14,8 @@ public class Demo3 {
 
         myList.reverse();
 
-        System.out.println(myList.size());
+        System.out.println("After reverse:");
+
         for (int i = 0; i < myList.size(); i++) {
             System.out.println(myList.get(i));
         }
